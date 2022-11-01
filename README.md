@@ -1,5 +1,9 @@
 # Chasing Local Realism with Qiskit
 
+
+![gato](https://github.com/fequinteros/bell_checker/blob/3cbaa1d6c64576f28bbd1aee671659ff5d70175b/logo-project.jpg)
+
+
 ### Repository description
 
 This repository holds the source code implementation for [The Chasing Local Realism with Qiskit project](https://qiskitfallfest.hypeinnovation.com/servlet/hype/IMT?documentTableId=396317333666442236&userAction=Browse&templateName=&documentId=6a036544ae39543c84ea2ffe63841209), a project realized in the context of the [Quantum Hackathon CIC-IPN 2022 (Mexico)](https://qiskitfallfest.hypeinnovation.com/servlet/hype/IMT?documentTableId=396317333666442202&userAction=Browse&templateName=&documentId=a239a36c6092232735d7fc1e7e52aa03).
