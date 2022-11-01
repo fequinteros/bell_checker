@@ -1,4 +1,4 @@
-# bells_inequalities: A Qiskit module for evaluate bell inequalities.
+# bell_checker: A Qiskit module for evaluate bell inequalities.
 
 ### Repository description
 
@@ -9,19 +9,19 @@ This repository holds the source code implementation for [The Chasing Local Real
 Recently, the 2022 Nobel Prize in Physics was awarded to a team that proved the existence of quantum entanglement. It was based on this achievement that we decided to study in more detail the Bell's inequalities.
 
 
-Since there is a family of inequalities of this type the Qiskit bell_inequalities module provides the necessary framework to compose quantum programs that evaluate any kind of bell inequalitie for a two level system. 
+Since there is a family of inequalities of this type the Qiskit bell_checker module provides the necessary framework to compose quantum programs that evaluate any kind of bell inequalitie for a two level system. 
 
-Our goal is to create a module called ***bell_inequalities***, to allow users to both create the quantum circuits necesary to characterize a bell inequality and also evaluate if it violate or not the desired bell inequality. This would be a value resource for students that want to understand and play with some bell inequalites as well for researchers that want to evaluate a lot of different scenarios in a scalable program.
+Our goal is to create a module called ***bell_checker***, to allow users to both create the quantum circuits necesary to characterize a bell inequality and also evaluate if it violate or not the desired bell inequality. This would be a value resource for students that want to understand and play with some bell inequalites as well for researchers that want to evaluate a lot of different scenarios in a scalable program.
 
 ## Example notebooks
 
 ### Can I see some examples of this package in action?
 
-Some jupyter notebooks with examples using `bell_inequalities` are contained in the folder `Example_notebooks/`. Remember to have `bell_inequalities` installed on your system before running the notebooks!
+Some jupyter notebooks with examples using `bell_checker` are contained in the folder `Example_notebooks/`. Remember to have `bell_checker` installed on your system before running the notebooks!
 
 ### Can I download the example notebooks to experiment locally?
 
-Yes! The folder `Example_notebooks/` can be downloaded as a compressed zip file from [this link](https://gitlab.com/fequinteros/bell_inequalities-/archive/master/bell_inequalities-master.zip?path=Example_notebooks).
+Yes! The folder `Example_notebooks/` can be downloaded as a compressed zip file from [this link](https://gitlab.com/fequinteros/bell_checker-/archive/master/bell_checker-master.zip?path=Example_notebooks).
 
 
 ## How to get this package?
@@ -31,27 +31,27 @@ Yes! The folder `Example_notebooks/` can be downloaded as a compressed zip file 
 This package can be installed via pip by running
 
 ```sh
-pip install git+https://github.com/fequinteros/bell_inequalities
+pip install git+https://github.com/fequinteros/bell_checker
 ```
     
-or, alternatively, by running
+another way is running
 
 ```sh
-python -m pip install git+https://github.com/fequinteros/bell_inequalities
+python -m pip install git+https://github.com/fequinteros/bell_checker
 ```
     
 ### Uninstallation
 
-In the same manner, the `bell_inequalities` package can be uninstalled as
+The `bell_checker` package can be uninstalled as
 
 ```sh
-pip uninstall bell_inequalities
+pip uninstall bell_checker
 ```
 
-or, equivalently,
+also works,
 
 ```sh
-python -m pip uninstall bell_inequalities
+python -m pip uninstall bell_checker
 ```
 
 # License acknowledgments
