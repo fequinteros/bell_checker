@@ -1,4 +1,4 @@
-# bell_checker: A Qiskit module for evaluate bell inequalities.
+# Chasing Local Realism with Qiskit: A Qiskit module for evaluate bell inequalities.
 
 ### Repository description
 
