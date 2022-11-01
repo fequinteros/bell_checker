@@ -1,4 +1,4 @@
-# Chasing Local Realism with Qiskit: A Qiskit module for evaluate bell inequalities.
+# Chasing Local Realism with Qiskit
 
 ### Repository description
 
