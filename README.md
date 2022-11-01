@@ -6,7 +6,7 @@ This repository holds the source code implementation for [The Chasing Local Real
 
 ### Motivation and intention
 
-Recently, the 2022 Nobel Prize in Physics was awarded to a team that proved the existence of quantum entanglement. It was based on this achievement that we decided to study in more detail the Bell's inequalities. , our proposal will be to develop an algorithm that allow to observe when any of these inequalities are violated or not.
+Recently, the 2022 Nobel Prize in Physics was awarded to a team that proved the existence of quantum entanglement. It was based on this achievement that we decided to study in more detail the Bell's inequalities.
 
 
 Since there is a family of inequalities of this type the Qiskit bell_inequalities module provides the necessary framework to compose quantum programs that evaluate any kind of bell inequalitie for a two level system. 
