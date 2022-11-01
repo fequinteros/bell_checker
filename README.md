@@ -54,8 +54,6 @@ or, equivalently,
 python -m pip uninstall bell_inequalities
 ```
 
-# License notice
+# License acknowledgments
 
-As expressed on the `LICENCE` file, we make use of the permissive Apache License 2.0.
-
-Also, this project makes use of several well known python libraries; [qiskit](https://qiskit.org/), [numpy](https://numpy.org/), [scipy](https://www.scipy.org/) and [matplotlib](https://matplotlib.org/). We acknowledge their developers and express full compliment to their respective licenses.
+This project makes use of several well known python libraries; [qiskit](https://qiskit.org/), [numpy](https://numpy.org/), [scipy](https://www.scipy.org/) and [matplotlib](https://matplotlib.org/). We acknowledge their developers and express full compliment to their respective licenses.
