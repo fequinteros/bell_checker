@@ -17,7 +17,7 @@ Our goal is to create a module called ***bell_inequalities***, to allow users to
 
 ### Can I see some examples of this package in action?
 
-Some jupyter notebooks with examples using `bell_inequalities` are contained in the folder `Example_notebooks/`. Remember to have `threerra` installed on your system before running the notebooks!
+Some jupyter notebooks with examples using `bell_inequalities` are contained in the folder `Example_notebooks/`. Remember to have `bell_inequalities` installed on your system before running the notebooks!
 
 ### Can I download the example notebooks to experiment locally?
 
@@ -42,7 +42,7 @@ python -m pip install git+https://github.com/fequinteros/bell_inequalities
     
 ### Uninstallation
 
-In the same manner, the `threerra` package can be uninstalled as
+In the same manner, the `bell_inequalities` package can be uninstalled as
 
 ```sh
 pip uninstall bell_inequalities
