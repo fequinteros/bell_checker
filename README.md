@@ -1,4 +1,4 @@
-# bells_inequalities: A Qiskit module for eavualte different kinds of qubits bell inequalities.
+# bells_inequalities: A Qiskit module for evaluate bell inequalities.
 
 ### Repository description
 
