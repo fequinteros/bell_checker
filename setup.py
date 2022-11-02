@@ -11,6 +11,6 @@ setuptools.setup(
     long_description=description,
     long_description_content_type="text/markdown",
     url='https://github.com/fequinteros/bell_checker',
-    packages=['bell_checker', 'threerra.discriminators'],
+    packages=['bell_checker'],
     install_requires=['qiskit', 'numpy', 'scipy', 'matplotlib'],
     include_package_data=True)
