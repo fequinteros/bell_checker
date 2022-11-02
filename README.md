@@ -13,26 +13,26 @@ This repository holds the source code implementation for [The Chasing Local Real
 Recently, the 2022 Nobel Prize in Physics was awarded to a team that proved the existence of quantum entanglement. It was based on this achievement that we decided to study in more detail the Bell's inequalities.
 
 
-Since there is a family of inequalities of this type the Qiskit bell_checker module provides the necessary framework to compose quantum programs that evaluate any kind of bell inequalitie for a two level system. 
+Since there is a family of inequalities of this type the Qiskit bell_checker package provides the necessary framework to compose quantum programs that evaluate any kind of bell inequalitie for a two level system. 
 
-Our goal is to create a module called ***bell_checker***, to allow users to both create the quantum circuits necesary to characterize a bell inequality and also evaluate if it violate or not the desired bell inequality. This would be a value resource for students that want to understand and play with some bell inequalites as well for researchers that want to evaluate a lot of different scenarios in a scalable program.
+Our goal is to create a package called ***bell_checker***, to allow users to both create the quantum circuits necesary to characterize a bell inequality and also evaluate if it violate or not the desired bell inequality. The bell_checker package will be a value resource for researchers that want to evaluate different bell inequalities and differet scenarios for it in in a scalable program as well for students that want to understand and play with the bell inequalites.
 
 ## Example notebooks
 
-### Can I see some examples of this package in action?
+### Where I can learn to use this package?
 
-Some jupyter notebooks with examples using `bell_checker` are contained in the folder `Example_notebooks/`. Remember to have `bell_checker` installed on your system before running the notebooks!
+Some jupyter notebooks with examples using `bell_checker` are contained in the folder `Example_notebooks/`. Remember to have `bell_checker` installed on your system before running the notebooks! Down are the commands to install the `bell_checker` package.
 
 ### Can I download the example notebooks to experiment locally?
 
-Yes! The folder `Example_notebooks/` can be downloaded as a compressed zip file from [this link](https://gitlab.com/fequinteros/bell_checker-/archive/master/bell_checker-master.zip?path=Example_notebooks).
+Yes, The folder `Example_notebooks/` can be downloaded as a compressed zip file from [this link](https://gitlab.com/fequinteros/bell_checker-/archive/master/bell_checker-master.zip?path=Example_notebooks).
 
 
 ## How to get this package?
 
 ### Installation
 
-This package can be installed via pip by running
+The `bell_checker` can be installed via pip by running
 
 ```sh
 pip install git+https://github.com/fequinteros/bell_checker
