@@ -60,4 +60,4 @@ python -m pip uninstall bell_checker
 
 # License acknowledgments
 
-This project makes use of several well known python libraries; [qiskit](https://qiskit.org/), [numpy](https://numpy.org/), [scipy](https://www.scipy.org/) and [matplotlib](https://matplotlib.org/). We acknowledge their developers and express full compliment to their respective licenses.
+This project makes use of several well known python libraries; [qiskit](https://qiskit.org/), [numpy](https://numpy.org/), [scipy](https://www.scipy.org/), [tqdm](https://tqdm.github.io/) and [matplotlib](https://matplotlib.org/). We acknowledge their developers and express full compliment to their respective licenses.
