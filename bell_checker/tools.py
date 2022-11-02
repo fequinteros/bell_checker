@@ -39,7 +39,7 @@ def verify( result, S ):
     cc = 0     
     for j, k in enumerate(result):
         if k > S:
-            c +=1
+            cc +=1
             print("The inequality has been broken in the circuit number {} with value {}!".format(j, k))
     
     if cc == 0:
