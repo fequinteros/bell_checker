@@ -19,7 +19,7 @@ def func(x, A, B, C, D):
     return A * np.sin(B*x + D) + C
 
 
-def g1D(S=None, t=None, v=None):
+def g1D(S=None, t=None, v=None, title="1D plot"):
     """
     Creates a one dimensional plot of any pair of lists, adding the classical limit S.
             
@@ -27,6 +27,7 @@ def g1D(S=None, t=None, v=None):
             S:     The classical limit in Bell's inequality.
             t:     List containing angle values.
             v:     List containing values to plot
+            title: The plot title
             
         Output:
             Plot t vs v.
@@ -55,7 +56,8 @@ def g1D(S=None, t=None, v=None):
     plt.xticks(r,[r'0', r'$\pi/2$', r'$\pi$', r'$3\pi/2$', r'$2\pi$'],fontsize=20);
     plt.yticks(fontsize=20);
     plt.legend(fontsize=20)
-    plt.title("1D plot",fontsize=20)
+    plt.title(title,fontsize=20)
+    plt.xlabel(r'$\theta$',fontsize=20)
     plt.grid("on")
     
 def g2D(S,x=None,y=None,v=None):
@@ -92,6 +94,8 @@ def g2D(S,x=None,y=None,v=None):
     CS = plt.contour(np.linspace(x[0],x[-1],np.array(data).shape[1]),np.linspace(y[0],y[-1],np.array(data).shape[0]),data, levels=levels, cmap="seismic");
     plt.clabel(CS, inline=3, fontsize=12)
     plt.title('Contour plot',fontsize=20);
+    plt.xlabel('x',fontsize=20)
+    plt.ylabel('y',fontsize=20)
 
     plt.subplot(1, 2, 2)
     plt.imshow(v, cmap="seismic",interpolation='bicubic',extent=[x[0],x[-1], y[0], y[-1]],origin='lower',alpha=0.8, aspect='auto');
@@ -101,10 +105,12 @@ def g2D(S,x=None,y=None,v=None):
     plt.xlim(x[0],x[-1])
     plt.ylim(y[0],y[-1])
     plt.title('Density plot',fontsize=20);
+    plt.xlabel('x',fontsize=20)
+    plt.ylabel('y',fontsize=20)
     
     plt.show()
     
-def g2D_2(S,x=None,y=None,v=None):
+def g2D_2(S,x=None,y=None,v=None,title='Contour and density plot'):
     
     """
     Creates a contour plot and a density plot in the same figure to observe how Bell's inequality is broken.
@@ -135,4 +141,6 @@ def g2D_2(S,x=None,y=None,v=None):
     plt.clabel(CS, inline=1, fontsize=12)
     plt.xlim(x[0],x[-1])
     plt.ylim(y[0],y[-1])
-    plt.title('Contour and density plot',fontsize=20);
+    plt.title(title,fontsize=20);
+    plt.xlabel('x',fontsize=20)
+    plt.ylabel('y',fontsize=20)
