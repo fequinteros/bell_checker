@@ -178,6 +178,7 @@ class CircuitMaker:
                 bell_val += np.sum( prob*Sabxy[j] )/no_shots  # normalization
                 
             result.append( bell_val )
+            
         if shutdown==False:
             tools.verify( result, S )
         
