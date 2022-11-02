@@ -63,3 +63,4 @@ def digit2key( n_obs, n_qubits ):
         obs_conf.append( np.base_repr( j, base=n_obs ).zfill( n_qubits ))
 
     return obs_conf
+

@@ -147,7 +147,7 @@ class CircuitMaker:
     
 
 
-    def witness( self, Sabxy, S, counts=None):
+    def witness( self, Sabxy, S, counts=None, shutdown=False):
         """
         Compute the specific bell inequality to evaluate.
 
@@ -178,7 +178,7 @@ class CircuitMaker:
                 bell_val += np.sum( prob*Sabxy[j] )/no_shots  # normalization
                 
             result.append( bell_val )
-
-        tools.verify( result, S )
+        if shutdown==False:
+            tools.verify( result, S )
         
         return result
