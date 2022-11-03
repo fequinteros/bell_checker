@@ -1,0 +1,9 @@
+- Implement for qutrits with Threerra package
+
+- Implement a way to give the list with rotation angles to the package and the package perform the for loop to do that
+
+- Implement a more general backend function to automatize this part for big scale calculations
+
+- Implement a package that transform a expectation value to the probability representation
+
+- Implement a graphic function to make 3D graphics usefull to this type of projects
