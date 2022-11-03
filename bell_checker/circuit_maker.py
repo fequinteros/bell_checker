@@ -23,12 +23,8 @@ class CircuitMaker:
                 backend: The backend on the circuits are excecuted.
         """
 
-        supported_backend = ['aer_simulator', 'qasm_simulator']
-
         assert type( auto )    == bool, 'The auto parameter must be a boolean (default value is False)'
         assert type( n_shots ) == int, 'The n_shots parameter must be a integer (default value is 1024)'
-        assert type( backend ) == str, 'The backend parameter must be a string (default value is \'aer_simulator\')'
-        assert backend in supported_backend, 'The allowed backend parameters are {}'.format(supported_backend)
 
         self.n_shots  = n_shots
         self.backend  = backend
