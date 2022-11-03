@@ -21,7 +21,7 @@ Our goal is to create a package called ***bell_checker***, to allow users to bot
 
 ### Where I can learn to use this package?
 
-Some jupyter notebooks with examples using `bell_checker` are contained in the folder `Example_notebooks/`. Remember to have `bell_checker` installed on your system before running the notebooks on your computer! Down in the README are the commands to install the `bell_checker` package.
+Some jupyter notebooks with examples using `bell_checker` are contained in the folder `Example_notebooks/`. Remember to have `bell_checker` installed on your system before running the notebooks on your computer!
 
 
 ## How to get this package?
